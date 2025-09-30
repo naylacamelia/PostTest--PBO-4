@@ -21,6 +21,41 @@ Package ini berisi class Manajemen yang bertugas mengatur seluruh logika pengelo
 
 Package ini berisi class Main sebagai titik masuk program. class ini menyediakan menu, menerima input dari pengguna, dan memanggil method di Manajemen untuk menjalankan perintah.
 
+## Penerapan Abstraction & Polymorphism 
+### Penjelasan Abstraction
+
+- Abstract Class
+  
+<img width="838" height="853" alt="image" src="https://github.com/user-attachments/assets/47c948a7-84e7-4a89-9847-68120d5cb3e8" />
+
+Pada package Model, terdapat abstract class Aktivitas yang menyimpan beberapa atribut privat. Di dalam Class ini terdapat method kosong yang akan menjadi blueprint pada subclassnya, yaitu class kegiatanBiasa, Kuliah dan Organisasi.
+
+- Interface
+  
+<img width="931" height="455" alt="image" src="https://github.com/user-attachments/assets/2a735782-10d4-42e2-9cd9-4c79d48bd29b" />
+
+Pada package model, saya menambahkan class baru berupa Interface Prioritas. Setiap kelas yang mengimplementasikannya wajib menyediakan method tentukanPrioritas(). Hal ini dilakukan agar semua jenis kegiatan memiliki prioritas urgensi yang jelas.
+### Penerapan Polymorphism
+**1. Penerapan Overriding**
+- Class kegiatanBiasa
+  
+<img width="874" height="689" alt="image" src="https://github.com/user-attachments/assets/85b0a794-d6b3-4bfd-9ad9-dd44bc7ffb82" />
+
+- Class Kuliah
+<img width="1050" height="658" alt="image" src="https://github.com/user-attachments/assets/a245b4d9-3a44-477b-b038-703cc25edf03" />
+
+- Class Organisasi
+
+<img width="878" height="676" alt="image" src="https://github.com/user-attachments/assets/3e21089b-72bb-49e7-aeaf-7459fb877cdd" />
+
+override dilakukan pada setiap subclass dari abstract class Aktivitas dan class yang mengimplementasikan interface Prioritas. Dalam hal ini, override dilakukan untuk 'menimpa' method pada superclass dan interface sehingga program dapat memberikan detail informasi setiap jenis kegiatan secara spesifik. 
+
+**2. Penerapan Overrloading**
+
+<img width="956" height="577" alt="image" src="https://github.com/user-attachments/assets/2ce4e85a-0db9-4a04-9a7a-30bbe2c0d5f3" />
+
+Penerapan overloading terdapat pada class Manajemen, khususnya pada method tambahKegiatan(). Saya menyediakan dua method yang sama namun berbeda parameternya. Method tambahKegiatan yang pertama digunakan jika ingin menambah kegiatan secara spesifik berdasarkan jenis kegiatan/aktivitasnya (organisasi atau kuliah). Sedangkan, method tambahKegiatan yang kedua berguna jika ingin menambahkan kegiatan biasa secara sederhana yang hanya memuat nama kegiatan dan tenggat saja.
+
 ## Penjelasan Alur Program
 ### Menu Utama
 
