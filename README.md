@@ -7,20 +7,20 @@ Nayla Camelia Indraswari | A | 2409116009
 Program ini merupakan sistem pencatat aktivitas harian sederhana yang dirancang untuk membantu pengguna dalam menyusun dan memantau tugas atau kegiatannya sehari-hari. Melalui program ini, setiap kegiatan penting dapat dicatat dengan detail, diberi tenggat waktu, diperbarui statusnya, hingga dihapus jika sudah tidak diperlukan. Dengan begitu, pengguna dapat lebih mudah mengelola aktivitas dan memastikan setiap tugas terselesaikan tepat waktu.
 ## Penjelasan Struktur Packages
 
-<img width="439" height="206" alt="image" src="https://github.com/user-attachments/assets/443527eb-8d7d-476f-a2bc-2f0085bde3c5" />
-
+<img width="267" height="231" alt="image" src="https://github.com/user-attachments/assets/e033f418-942d-47ca-8711-431330ced692" />
 
 **1. Package Model**
 
-package ini berisi class Aktivitas (superclass) yang merepresentasikan objek program sehingga pengguna dapat menyimpan data kegiatan, seperti nama, tenggat, dan status. selain itu, terdapat sub class, yakni class Kuliah dan Organisasi. Package ini hanya fokus pada pendefinisian data.
+Package ini berisi struktur data kegiatan. Class Aktivitas berperan sebagai abstract class yang menjadi dasar bagi subclass Kuliah dan Organisasi, yang masing-masing menambahkan atribut khusus. Selain itu, interface Prioritas digunakan untuk menerapkan abstraction tambahan. Di package ini juga terdapat penerapan polymorphism melalui method overriding pada subclass.
 
 **2. Package Service**
 
-Package ini berisi class Manajemen yang berperan sebagai controller yang mengelola objek. Class ini mengatur semua logika pengelolaan kegiatan, seperti tambah, tampilkan, hapus, update, tandai selesai, dan cari kegiatan.
+Package ini berisi class Manajemen yang bertugas mengatur seluruh logika pengelolaan kegiatan. Class ini menggunakan ArrayList untuk menyimpan data kegiatan serta menyediakan berbagai method seperti tambah, hapus, update, tandai selesai, dan cari. Konsep overloading juga diterapkan pada method tambahKegiatan untuk mendukung input berbeda.
 
 **3. Package Main**
 
-Package ini berisi class Main yang menjadi kode utama program. class ini menyediakan menu, menerima input dari pengguna, dan memanggil method di Manajemen untuk menjalankan perintah.
+Package ini berisi class Main sebagai titik masuk program. class ini menyediakan menu, menerima input dari pengguna, dan memanggil method di Manajemen untuk menjalankan perintah.
+
 ## Penjelasan Alur Program
 ### Menu Utama
 
@@ -31,7 +31,7 @@ program ini memiliki 7 fitur, diantaranya yakni pilihan untuk menambah kegiatan,
 ### 1. Fitur Tambah Kegiatan 📝
 <img width="491" height="155" alt="image" src="https://github.com/user-attachments/assets/83e17563-b26b-429a-86bc-8177950a0daf" />
 
-User dapat memilih jenis kegiatan secara spesifik (biasa, kuliah, atau organisasi). Pengklasifikasian aktivitas dilakukan dengan menerapkan superclass pada program, sehingga semua jenis kegiatan dapat disimpan dan dikelola dengan cara yang terstruktur menggunakan konsep inheritance.
+User dapat memilih jenis kegiatan secara spesifik (biasa, kuliah, atau organisasi). Pengklasifikasian aktivitas dilakukan dengan menerapkan abstract class sebagai superclass pada program, sehingga semua jenis kegiatan dapat disimpan dan dikelola dengan cara yang terstruktur menggunakan konsep inheritance.
 -  **Ketika User memilih 1**, maka ia menambah kegiatan biasa.
 
 <img width="486" height="278" alt="image" src="https://github.com/user-attachments/assets/6d98c502-81d7-4849-a329-7d57e9a55edd" />
@@ -137,7 +137,7 @@ Ketika User menginputkan angka 6 pada menu, maka Ia telah beralih menuju fitur S
 ### 7. Keluar dari Program ❌
 <img width="423" height="301" alt="image" src="https://github.com/user-attachments/assets/636b180f-61b0-49fa-bee0-ee4e17f60a39" />
 
-Pengguna dapat keluar dari program dengan memasukkan angka 7 pada pilihan menu. Setelah itu, program akan berhenti berjalan dan sesi penggunaan berakhir.
+User dapat keluar dari program dengan memasukkan angka 7 pada pilihan menu. Setelah itu, program akan berhenti berjalan dan sesi penggunaan berakhir.
 
 
 
