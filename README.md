@@ -54,15 +54,15 @@ Seluruh kegiatan yang baru ditambah, secara otomatis akan memiliki status "belum
 
 - **Validasi Input**
 
-<img width="491" height="270" alt="image" src="https://github.com/user-attachments/assets/cbac42a7-a3cc-4068-9cbb-2e9040d97436" />
+<img width="410" height="270" alt="image" src="https://github.com/user-attachments/assets/cbac42a7-a3cc-4068-9cbb-2e9040d97436" />
 
 Ketika User memasukan format tanggal yang salah atau tidak sesuai, maka program akan muncul keterangan bahwa format tanggal salah dan otomatis kembali ke menu utama.
 
-<img width="491" height="157" alt="image" src="https://github.com/user-attachments/assets/83000e0a-9d3e-4013-917f-bb5ae93f76bd" />
+<img width="410" height="157" alt="image" src="https://github.com/user-attachments/assets/83000e0a-9d3e-4013-917f-bb5ae93f76bd" />
 
 User akan menerima pesan "Input harus berupa angka! coba lagi" dan kembali ke menu utama, apabila ia menginputkan selain angka.
 
-<img width="491" height="143" alt="image" src="https://github.com/user-attachments/assets/fe642575-a507-4d52-8a52-3ac3144cb1ec" />
+<img width="410" height="143" alt="image" src="https://github.com/user-attachments/assets/fe642575-a507-4d52-8a52-3ac3144cb1ec" />
 
 User akan menerima pesan "Jenis kegiatan tidak tersedia", apabila ia menginputkan angka selain 1-3.
 
@@ -89,53 +89,53 @@ Status kegiatan nomor 1 telah berubah menjadi "selesai".
 
 Ketika User menginput nomor kegiatan yang tidak tersedia, maka Ia akan menerima pesan berupa "Input tidak valid" dan kembali ke menu utama.
 
-<img width="409" height="320" alt="image" src="https://github.com/user-attachments/assets/38ab413b-8d47-429f-b29c-f5d9a3625b77" />
+<img width="406" height="492" alt="image" src="https://github.com/user-attachments/assets/88c42b5b-4745-4408-a31f-fe279b643188" />
 
 Ketika User menginput selain angka, maka Ia akan menerima pesan berupa "Input harus angka" dan kembali ke menu utama.
 
 ### 4. Fitur Update Tenggat Kegiatan 📆
-<img width="603" height="499" alt="image" src="https://github.com/user-attachments/assets/4cf7c097-8214-4d76-8f30-80f235295542" />
+<img width="626" height="567" alt="image" src="https://github.com/user-attachments/assets/ef2e440f-62ca-42db-a169-8afb4af75a77" />
 
 Ketika User memasukkan angka 4 pada menu, maka Ia telah masuk ke fitur Update Tenggat. Pada fitur ini, User diminta untuk memasukkan nomor kegiatan yang ingin diperbarui, kemudian Ia akan diminta untuk memasukkan tenggat baru dari kegiatan tersebut.
 
 - **Validasi Input**
-<img width="409" height="316" alt="image" src="https://github.com/user-attachments/assets/ab578e3e-8dd6-43f1-b79c-e2cc20ebee71" />
+<img width="485" height="487" alt="image" src="https://github.com/user-attachments/assets/8d0394fe-bc8a-4a31-a487-feb17f2744f9" />
 
 Ketika User menginput nomor kegiatan yang tidak tersedia, maka Ia akan menerima pesan berupa "kegiatan tidak tersedia" dan kembali ke menu utama.
 
-<img width="409" height="315" alt="image" src="https://github.com/user-attachments/assets/02574c88-aff0-4609-89cf-40d7c86291c9" />
+<img width="458" height="484" alt="image" src="https://github.com/user-attachments/assets/21e5146a-6db0-4201-850d-846d00d2d7c6" />
 
 Ketika User menginput selain angka, maka Ia akan menerima pesan berupa "Input harus angka" dan kembali ke menu utama.
   
 
 ### 5. Fitur Hapus Kegiatan ✏️
 
-<img width="491" height="451" alt="image" src="https://github.com/user-attachments/assets/a4f2062a-1a6d-4d1a-800d-a911cbc1cacb" />
+<img width="505" height="511" alt="image" src="https://github.com/user-attachments/assets/4a92809d-a48e-418d-b2c4-61da6a1271ec" />
 
 Ketika User memasukkan angka 5 pada menu, maka Ia telah masuk ke fitur Hapus Kegiatan. Pada fitur ini, User akan diminta untuk memasukkan nomor kegiatan yang ingin dihapus. Setelah itu, kegiatan yang dipilih beserta seluruh detail informasinya akan dihapus dari daftar kegiatan.
 
 - **Validasi Input**
-<img width="491" height="349" alt="image" src="https://github.com/user-attachments/assets/47ac769e-4d8d-4deb-b595-8b4353e31144" />
+<img width="400" height="378" alt="image" src="https://github.com/user-attachments/assets/f012f4ff-a0e8-4a2e-bc2c-623f466abd48" />
 
 Ketika User menginput nomor kegiatan yang tidak tersedia, maka Ia akan menerima pesan berupa "Input tidak valid" dan kembali ke menu utama.
 
-<img width="491" height="346" alt="image" src="https://github.com/user-attachments/assets/81056e43-7eaf-4357-bbdf-6cbe934a457d" />
+<img width="391" height="375" alt="image" src="https://github.com/user-attachments/assets/a487d3fc-30a9-4287-8bad-2e6a10052b60" />
 
 Ketika User menginput selain angka, maka Ia akan menerima pesan berupa "Input harus angka" dan kembali ke menu utama.
   
 
 ### 6. Fitur Search Kegiatan 🔍
-<img width="491" height="152" alt="image" src="https://github.com/user-attachments/assets/4fcf61f2-bb3e-4cd4-9a24-f526380c172d" />
+<img width="592" height="154" alt="image" src="https://github.com/user-attachments/assets/94a86c1a-c2f1-4486-b3a6-a3a30f212f05" />
 
 Ketika User menginputkan angka 6 pada menu, maka Ia telah beralih menuju fitur Search program ini. Fitur ini dapat melakukan pencarian kegiatan berdasarkan kata kunci yang diberikan User. Jika kata kunci yang dimasukkan ada di dalam daftar kegiatan, maka program akan menampilkan nama kegiatan tersebut beserta detail informasinya.
 
 - ketika kata kunci yang diinput pengguna tidak terdapat dalam daftar kegiatan, maka akan muncul output berupa informasi bahwa kegiatan tersebut tidak ada.
 
-<img width="491" height="241" alt="image" src="https://github.com/user-attachments/assets/6336e987-48b6-41ad-9a63-66c82945532e" />
+<img width="441" height="93" alt="image" src="https://github.com/user-attachments/assets/a741be6b-1bfc-449a-91e6-cadcbb1a89fb" />
 
 
 ### 7. Keluar dari Program ❌
-<img width="491" height="259" alt="image" src="https://github.com/user-attachments/assets/b8217008-e9aa-4c2f-8d26-8f14f6f0b241" />
+<img width="423" height="301" alt="image" src="https://github.com/user-attachments/assets/636b180f-61b0-49fa-bee0-ee4e17f60a39" />
 
 Pengguna dapat keluar dari program dengan memasukkan angka 7 pada pilihan menu. Setelah itu, program akan berhenti berjalan dan sesi penggunaan berakhir.
 
